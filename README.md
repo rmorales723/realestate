@@ -1,4 +1,4 @@
-This simple App is a Real Estate Application. Implementing React & Next.js for the Frontend, and using RapidAPI for the Backend Database.
+This simple App is a Real Estate Application. Implementing React & Next.js for the Frontend, and RapidAPI for the Backend Database.
 
 ## Getting Started
 
