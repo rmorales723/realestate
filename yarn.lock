@@ -398,7 +398,7 @@
     "@chakra-ui/react-utils" "2.0.1"
     "@chakra-ui/utils" "2.0.2"
 
-"@chakra-ui/layout@2.0.2":
+"@chakra-ui/layout@^2.0.2", "@chakra-ui/layout@2.0.2":
   "integrity" "sha512-iElUGxj8YmVGcaCQlQovJJC4APHMh5vwlZU37IC6W3FdJzv+orVhzbuB98tuzfWHxjKQZeGhcz7+npIkN87D5w=="
   "resolved" "https://registry.npmjs.org/@chakra-ui/layout/-/layout-2.0.2.tgz"
   "version" "2.0.2"
