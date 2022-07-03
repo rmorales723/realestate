@@ -35,25 +35,35 @@ const PropertyDetails = ({propertyDetails: { price, rentFrequency, rooms, title,
           <Text>Purpose</Text>
           <Text fontWeight='bold'>{purpose}</Text>
       </Flex>
-      {furnishingStatus && (
+        {furnishingStatus && (
         <Flex justifyContent='space-between' w='400px' borderBottom='1px' borderColor='gray.100' p='3' >
           <Text>Furnishing Status</Text>
           <Text fontWeight='bold'>{furnishingStatus}</Text>
         </Flex>
       )}
-    </Flex>
-    <Box>
+      </Flex>
+      <Box>
       {amenities.length && <Text fontSize='2xl' fontWeight='black' marginTop='5'>Amenities</Text>}
-        <Flex flexWrap='wrap'>
+        <Flex flexWrap="wrap">
           {amenities?.map((item) => (
-              item.amenities.map((amenity) => (
-                <Text key={amenity.text}>{amenity.text}</Text>
+              item?.amenities?.map((amenity) => (
+                <Text
+                  fontWeight="bold" 
+                  color="blue.400"
+                  fontSize="l"
+                  p="2"
+                  bg="gray.200"
+                  m="1"
+                  borderRadius="5"
+                  key={amenity.text}
+                >{amenity.text}</Text>
               ))
           ))}
         </Flex>
       </Box>
     </Box>
-);
+    
+  );
 
 export default PropertyDetails;
 
