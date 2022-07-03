@@ -1,4 +1,4 @@
-## This simple Project is a Real Estate Application. 
+## This Project is a Real Estate Application. 
 #### Implementing React & Next.js Framework for the Frontend, and RapidAPI for the Backend Database.
 
 #### Getting Started
