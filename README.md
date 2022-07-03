@@ -1,5 +1,5 @@
 ## This Project is a Real Estate Application. 
-#### Implementing React, Next.js Framework for the Frontend, JavaScript, and RapidAPI for the Backend Database.
+#### Implementing React, Next.js Framework for the Frontend, JavaScript. RapidAPI for the Backend Database.
 
 #### Getting Started
 First, run the development server:
